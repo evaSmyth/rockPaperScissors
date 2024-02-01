@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+}
+
+.heading{
+  text-align: center;
+}
+
+.game-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 100px;
+  align-items: center;
+}
+
+.player-side, .comp-side, .final-result {
+  border: 1px solid grey;
+  padding: 20px;
+  
+}
+
+.score {
+  width: 45px;
+  height: 45px;
+  background-color: red;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  color: white;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hidden {
+  display: none;
+}
